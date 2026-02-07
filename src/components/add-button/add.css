@@ -1,0 +1,7 @@
+.add {
+  border-radius: 50%;
+  background-color: var(--color-blue);
+  border: 0;
+  padding: 13px;
+  box-shadow: 0 0 4px #6C63FF;
+}

@@ -1,0 +1,18 @@
+.todo__select {
+  color: var(--color-white);
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid var(--color-blue);
+  background-color: var(--color-blue);
+  width: 93px;
+}
+
+.todo__select-item {
+  background-color: var(--color-white);
+  color: var(--color-blue);
+  text-transform: none;
+  cursor: url(../../assets/svg/cursor/cursor.svg) 2 2, default;;
+}

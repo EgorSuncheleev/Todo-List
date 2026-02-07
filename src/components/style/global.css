@@ -1,0 +1,7 @@
+.container {
+  margin: 0 auto;
+}
+
+* {
+  cursor: url(../../assets/svg/cursor/cursor.svg) 2 2, default;
+}
