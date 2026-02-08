@@ -7,6 +7,7 @@ import Add from "./components/add-button/add";
 const App = () => {
   return (
     <div className="todo"> 
+      <div className="todo__container">
       <h1 className="todo__title">todo list</h1>
       <div className="todo__form">
       <Search />
@@ -17,8 +18,9 @@ const App = () => {
       <Task />
       <Task />
       <div className="todo__footer">
-        <Add />
       </div>
+      </div>
+        <Add />
     </div>
   )
 }

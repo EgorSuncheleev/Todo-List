@@ -5,3 +5,8 @@
   padding: 13px;
   box-shadow: 0 0 4px #6C63FF;
 }
+
+.add__box {
+  margin-top: auto;
+  margin-bottom: 32px;
+}
