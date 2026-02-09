@@ -1,0 +1,15 @@
+.container {
+  margin: 0 auto;
+}
+
+* {
+  cursor:
+    url(../../assets/svg/cursor/cursor.svg) 2 2,
+    default;
+}
+
+:root {
+  --color-white: #f7f7f7;
+  --color-blue: #6c63ff;
+  --color-black: #252525;
+}

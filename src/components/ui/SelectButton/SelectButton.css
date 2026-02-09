@@ -14,5 +14,7 @@
   background-color: var(--color-white);
   color: var(--color-blue);
   text-transform: none;
-  cursor: url(../../assets/svg/cursor/cursor.svg) 2 2, default;;
+  cursor:
+    url(../../assets/svg/cursor/cursor.svg) 2 2,
+    default;
 }

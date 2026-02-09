@@ -15,4 +15,4 @@ const SearchSvg = () => {
   );
 };
 
-export default SearchSvg
+export default SearchSvg;

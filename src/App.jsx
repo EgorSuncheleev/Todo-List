@@ -1,28 +1,27 @@
-import Search from "./components/search-input/search-input";
-import Select from "./components/select/select";
-import ShemeTheme from "./components/color-sheme/ShemeTheme";
-import Task from "./components/task/task";
-import Add from "./components/add-button/add";
+import AddButton from "./components/ui/AddButton/AddButton";
+import ColorThemeButton from "./components/ui/ColorThemeButton/ColorThemeButton";
+import SearchInput from "./components/ui/SearchInput/SearchInput";
+import SelectButton from "./components/ui/SelectButton/SelectButton";
+import Task from "./components/ui/task/task";
 
 const App = () => {
   return (
-    <div className="todo"> 
+    <div className="todo">
       <div className="todo__container">
-      <h1 className="todo__title">todo list</h1>
-      <div className="todo__form">
-      <Search />
-      <Select />
-      <ShemeTheme />
+        <h1 className="todo__title">todo list</h1>
+        <div className="todo__form">
+          <SearchInput />
+          <SelectButton />
+          <ColorThemeButton />
+        </div>
+        <Task />
+        <Task />
+        <Task />
+        <div className="todo__footer"></div>
       </div>
-      <Task />
-      <Task />
-      <Task />
-      <div className="todo__footer">
-      </div>
-      </div>
-        <Add />
+      <AddButton />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

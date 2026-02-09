@@ -1,9 +1,8 @@
-import "../task/task.css";
-import "./task-svg.js";
+import "./Task.css";
 
 const Task = () => {
   return (
-    <form className="task__form">
+    <div className="task__form">
       <div className="task__form-box">
         <label className="custom-checkbox">
           <input type="checkbox" className="task__checkbox" />
@@ -48,15 +47,25 @@ const Task = () => {
             stroke-linecap="round"
           />
           <path
-          id="path-trash"
+            id="path-trash"
             d="M7.5 2.25C7.5 1.83579 7.83577 1.5 8.25 1.5H9.75C10.1642 1.5 10.5 1.83579 10.5 2.25V3.75H7.5V2.25Z"
             stroke="#CDCDCD"
           />
-          <path id="path-trash" d="M10.5 9V12.75" stroke="#CDCDCD" stroke-linecap="round" />
-          <path id="path-trash" d="M7.5 9V12.75" stroke="#CDCDCD" stroke-linecap="round" />
+          <path
+            id="path-trash"
+            d="M10.5 9V12.75"
+            stroke="#CDCDCD"
+            stroke-linecap="round"
+          />
+          <path
+            id="path-trash"
+            d="M7.5 9V12.75"
+            stroke="#CDCDCD"
+            stroke-linecap="round"
+          />
         </svg>
       </div>
-    </form>
+    </div>
   );
 };
 

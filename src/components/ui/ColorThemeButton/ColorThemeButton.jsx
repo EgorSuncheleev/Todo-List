@@ -1,6 +1,6 @@
-import "../color-sheme/ShemeTheme.css";
+import "./ColorThemeButton.css";
 
-const ShemeTheme = () => {
+const ColorThemeButton = () => {
   return (
     <button className="todo__button">
       <svg
@@ -21,4 +21,4 @@ const ShemeTheme = () => {
   );
 };
 
-export default ShemeTheme;
+export default ColorThemeButton;

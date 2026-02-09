@@ -1,4 +1,4 @@
-const SvgAdd = () => {
+const AddSvg = () => {
   return (
     <svg
       width="24"
@@ -17,4 +17,4 @@ const SvgAdd = () => {
   );
 };
 
-export default SvgAdd
+export default AddSvg

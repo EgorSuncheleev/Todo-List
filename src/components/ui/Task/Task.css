@@ -4,7 +4,7 @@
   width: 100%;
   padding-top: 30px;
   max-width: 520px;
-  border-bottom: 1px solid #6C63FF;
+  border-bottom: 1px solid #6c63ff;
   padding-bottom: 17px;
 }
 
@@ -33,7 +33,7 @@
   align-items: center;
   cursor: pointer;
   position: relative;
-  margin: 5px 0; 
+  margin: 5px 0;
 }
 
 .checkmark {
@@ -54,7 +54,7 @@
 }
 
 .task__checkbox:checked + .checkmark::after {
-  content: '✓';
+  content: "✓";
   font-size: 18px;
 }
 
@@ -64,4 +64,3 @@
   justify-content: center;
   gap: 13px;
 }
-
