@@ -1,13 +1,18 @@
 import "./NewNoteTask.css";
 
-const NewNoteTask = () => {
+const NewNoteTask = (props) => {
+
+  const {
+    placeholder = 'Input your note...'
+  } = props
+
   return (
     <div className="todo__newnote">
       <div className="todo__newnote-top">
         <h1 className="todo__newnote-title">New Note</h1>
         <input
           className="todo__newnote-input"
-          placeholder="Input your note..."
+          placeholder={placeholder}
           type="text"
         ></input>
       </div>

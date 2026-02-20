@@ -10,7 +10,7 @@ const App = () => {
       <div className="todo__container">
         <h1 className="todo__title">todo list</h1>
         <div className="todo__form">
-          <SearchInput />
+          <SearchInput className='todo__search' />
           <SelectButton />
           <ColorThemeButton />
         </div>
