@@ -1,8 +1,13 @@
 import "./ColorThemeButton.css";
 
 const ColorThemeButton = () => {
+
+  const handleClickColorButton = () => {
+    console.log('Click')
+  }
+
   return (
-    <button className="todo__button">
+    <button className="todo__button" onClick={handleClickColorButton}>
       <svg
         width="22"
         height="22"

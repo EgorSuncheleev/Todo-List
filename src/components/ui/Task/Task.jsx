@@ -3,14 +3,18 @@ import "./Task.css";
 const Task = (props) => {
 
   const {
-    text = 'Note #1'
+    text = 'Note #1',
   } = props
+
+  const handleClickChecbox = () => {
+    console.log('click on checkbox')
+  }
 
   return (
     <div className="task__form">
       <div className="task__form-box">
         <label className="custom-checkbox">
-          <input type="checkbox" className="task__checkbox" />
+          <input type="checkbox" className="task__checkbox" onChange={handleClickChecbox}/>
           <span className="checkmark"></span>
         </label>
         <div className="task__form-text">{text}</div>
